@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    background-color: #4243ff;
+    border-radius: 3px;
+    margin-left: 30px;
+    padding: 6px 8px 6px 8px;
+    border-radius: 9px;
+}
+
+.firstSection {
+    background-color: white;
+}
+
+.firstSectionList {
+    display: inline-block;
+    margin-left: 300px;
+
+}
+ul {
+    display: inline-block;
+}
+
+.firstSectionList li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #42f2ff;
+}
+.firstSectionList li:first-child a{
+    color: crimson;
+    
+}
+.firstSectionList a {
+    text-decoration: none;
+    color: #271515;
+}
+
+.firstSectionButtons {
+    float: right;
+    padding-top: 13px;
+    margin-right: 30px;
+}
+
+#bigText:hover{
+    color:crimson;
+}
+
+/*.firstSectionButtons button:hover {
+    background-color: red;
+    color: white;
+}*/
+ .createCVButton {
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #4243ff;
+    color: #8E9092;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.createCVButton a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(255, 253, 253);
+}
+
+.loginButton {
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #f0f5f5;
+    color: #8E9092;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.loginButton a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(15, 13, 13);
+}
+#mainBody {
+    background-color: #f0f5f5;
+    display: inline-block;
+    width: 100%;
+}
+
+#Text {    
+    display: inline-block;
+    padding: 120px 100px 100px 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+#image {
+    float:right;
+    
+    padding: 80px 100px 80px 0px; 
+}
+.button { 
+        margin-top: 20px;
+        margin-left: 20px;
+}

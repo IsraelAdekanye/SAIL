@@ -1,0 +1,37 @@
+h1:hover{
+    color: blueviolet;
+}
+input:optional{
+    margin: 4rem;
+}
+input:checked{
+    margin: 2px;
+}
+p:first-of-type{
+    color: crimson;
+}
+p:last-of-type{
+    color: rgb(20, 39, 102);
+    background-color: black;
+}
+br:empty{
+    line-height: 2rem;
+}
+li:last-child{
+    color: crimson;
+}
+.firstSectionList li:nth-child(3){
+    color: aqua;
+}
+p::first-letter{
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+p::after{
+    content: "🙌";
+}
+h1::selection{
+    color: antiquewhite;
+    background-color: aqua;
+}

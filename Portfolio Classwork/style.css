@@ -1,0 +1,58 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstSection{
+    background-color: white;
+    padding: 70px;
+    border: 2px solid black;
+}
+.nameHolder{
+    color: black;
+    text-align: center;
+}
+.fullName{
+   font-size: xx-large;
+}
+.secondSection{
+    display: flex;
+    padding: 100px;
+    background-color: black;
+}
+.imageExpression{
+    width: 400px;
+    margin: 100px;
+    color: white;
+    text-align: center;
+}
+.profileImg{
+    margin-left: 180px;
+}
+.thirdSection{
+    padding: 50px;
+    padding-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+
+}
+.biography{
+    width: 500px;
+    /* margin-left: 380px; */
+}
+.biographyText{
+    text-align: justify;
+}
+.hr{
+    width: 500px;
+}
+.madeWith{
+    width: 500px;
+    text-align: center;
+}
+.apple-logo{
+    padding-top: 20px;
+}
+span{
+    color: blue;
+}

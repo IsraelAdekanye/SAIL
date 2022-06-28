@@ -1,0 +1,36 @@
+#wholeServices{
+    background-color: rgb(16, 20, 24);
+    padding-bottom: 200px;
+}
+#ourServices{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+#ourServicesHeaderText{
+    text-align: center;
+    color: rgb(203, 221, 206);
+    align-content: center;
+}
+#service1,#service2,#service3{
+    border-radius: 15px;
+    background-color: beige;
+    width: 20%;
+    align-content: center;
+    text-align: center;
+    text-decoration-color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+}
+#readMore{
+    background-color: black;
+    color: black;
+}
+#aReadMore{
+    text-decoration: none;
+    color: aliceblue;
+}
+#readMore:hover{
+    background-color: aqua;
+}
